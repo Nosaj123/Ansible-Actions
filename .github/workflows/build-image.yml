@@ -28,4 +28,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.actor }}/ansible:v2.14.0.1
+          tags: ghcr.io/Nosaj123/ansible:v2.14.0.1
