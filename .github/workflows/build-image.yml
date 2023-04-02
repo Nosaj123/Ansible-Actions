@@ -20,7 +20,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           registry: ghcr.io
-          username: ${{ github.actor }}
+          username: nosaj123
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and push
@@ -28,4 +28,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/Nosaj123/ansible:v2.14.0.1
+          tags: ghcr.io/nosaj123/ansible:v2.14.0.1
